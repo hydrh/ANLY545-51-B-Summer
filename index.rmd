@@ -1,0 +1,37 @@
+---
+title: "Data Science using ChatGPT"
+subtitle: "Reviewing Categorical Analysis Papers"
+author: "Class of xxx"
+editor: "Mark Newman"
+volume: "1"
+date: "`r Sys.Date()`"
+bibliography:
+  - basic/references.bib
+lof: true
+lot: true
+link-citations: true
+links-to-footnotes: true
+paged-footnotes: true
+csl: template/apa-6th-edition.csl
+url: 'https\://github.com/Team-CategoricalAnalysis/xxx'
+github-repo: Team-CategoricalAnalysis/xxx
+---
+
+```{r child='basic/forward.rmd'}
+```
+```{r child='basic/reviews.rmd'}
+```
+
+# Commentary - Team 1
+
+```{r child='summary/team1.rmd'}
+```
+```{r child='reproduction/team2.rmd'}
+```
+
+# Commentary - Team 1
+
+```{r child='summary/team2.rmd'}
+```
+```{r child='reproduction/team1.rmd'}
+```

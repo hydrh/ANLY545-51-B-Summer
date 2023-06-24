@@ -1,0 +1,7 @@
+# IDE/tools
+.Rhistory
+.RData
+
+# Knit
+_book
+*.html

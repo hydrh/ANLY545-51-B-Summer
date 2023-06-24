@@ -1,0 +1,13 @@
+pagedown::html_paged:
+  toc: true
+  toc_depth: 1
+  number_sections: true
+  pandoc_args: --mathjax
+  self_contained: true
+  template: template/book.html
+  css:
+    - template/default-page.css
+    - template/default.css
+    - template/crc.css
+    - template/thesis-fonts.css
+    - template/thesis.css
