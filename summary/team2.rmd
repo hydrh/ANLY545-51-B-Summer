@@ -1,9 +1,10 @@
 ---
 title: "Summary"
 author:
-  - xxx
-  - xxx
-  - xxx
+  - Felix Schuhbauer
+  - Raphael Shinckar
+  - Marysol Huxohl
+  - Haider Haseeb
 date: "`r Sys.Date()`"
 ---
 
