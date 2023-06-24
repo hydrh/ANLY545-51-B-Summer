@@ -1,1 +1,49 @@
-h
+---
+title: "Summary"
+author:
+  - Tanisha Gupta
+  - Kemthida Chiaracharuwat
+  - Dorcas Abiola
+  - Andrea Lievano
+  - Rinosh Polavarapu
+date: "`r Sys.Date()`"
+---
+
+Remember to write your thoughts as a book report.
+I expect the same _content_ as your presentation, but the working should reflect the new medium.
+
+# Read and Review
+
+Individually read and review the paper.
+As a group, please summarize your thoughts including the following:
+
+1. How original is the topic?
+  
+The topic is not very original as there are existing literature on Neural networks and Logistic Regression.
+However, this study does a good job as it pulls information from different literature and resources and provides a more focused approach directly related to clinical healthcare problems.
+
+2. What is the main question addressed by the research?
+
+There is an increasing interest in the potential value of Neural networks, but this approach is computationally more expensive and less easily interpretable than Logistic regression models.
+One of the main questions addressed here:
+"Is the additional effort and expense of a Neural network worth the incremental increase in the quality of output?"
+
+3. Are the conclusions consistent with the evidence and arguments presented?
+
+Yes, the conclusions are consistent with the evidence and arguments presented.
+While simple logistic regression models generally demonstrate reasonable performance in clinical settings for categorical outcome classification using structured healthcare data, the use of more complex methods like neural networks provides only marginal improvements at the cost of increased complexity, time, and computation power.
+However, in specific scenarios where large amounts of data, including unstructured data such as genomic and imaging studiesare available then even a  small performance gains can have significant management value, advanced analytic tools like neural networks may be justified.
+
+# A.I Help
+
+Step1: Pasted the article text (excluding figures and table) along with the questions shown in the screen shot below
+Step2: Asked 3 questions from ChatGPT
+
+# Compare and contrast
+
+During the human review, we identify the strengths and limitations of the of the study, evaluate the appropriateness of the choosen statistical methods and metrics, and assess the generalizability  of the findings to other contexts.
+Overall, a human review of the article would involve a comprehensive and critical assessment of the content, methodology, and implications, providing a nuanced understanding beyond the summary provided by an autmated analysis.
+
+1. Did ChatGPT help fill in your understanding of the paper? ChatGPT answers literally whereas a human is able to read the review and put it in their own words and analyze things outside the box to give an answer.
+
+2. Did ChatGPT miss the mark in a meaningful way? Not exactly but it was less comprhensive as compared to the human
