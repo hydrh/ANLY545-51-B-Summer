@@ -34,7 +34,7 @@ Ask ChatGPT to contribute to the group project.
 Keep diligent notes as to your conversation.
 Science is about reproducibility, if your classmates can not repeat the process using your steps, you will be marked down in the next assignment.
 
-##Steps
+## Steps
 
 1. First of all, we have to create an effective prompt which gives ChatGPT a well-designed set of instructions to follow.
 
