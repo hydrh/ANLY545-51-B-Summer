@@ -17,8 +17,15 @@ Individually read and review the paper.
 As a group, please summarize your thoughts including the following:
 
 1. How original is the topic?
+Topic seems original since it is specifically aimed at the health industry. However, it is not entirely original, some literature review implies some studies have been done already on this topic
+
 2. What is the main question addressed by the research?
+
+Do Neural Networks (NN), which is a more expensive and complex method, have significantly better clinical performance than logistic regression (LR), which is a simpler statistical method, based on existing studies?
+
 3. Are the conclusions consistent with the evidence and arguments presented?
+
+Yes, the conclusions are consistent with the evidence and arguments presented. NN had greater AUC but in almost in all cases the difference in performance was so small that it was not clinically significant. For specific application, the tradeoff between the cost and algorithm performance may justify use of NN but in general LR gives similar results. Therefore, in most clinical circumstances, the use of much simpler LR models is likely to provide adequate performance for real-world needs. However, in specific circumstances, advanced analytic tools such as NNs may be better.
 
 # A.I Help
 
@@ -27,9 +34,31 @@ Ask ChatGPT to contribute to the group project.
 Keep diligent notes as to your conversation.
 Science is about reproducibility, if your classmates can not repeat the process using your steps, you will be marked down in the next assignment.
 
+##Steps
+
+1. First of all, we have to create an effective prompt which gives ChatGPT a well-designed set of instructions to follow.
+
+ Example: I would like you to act like a student pursuing master’s degree in Analytics. Your task is to read the provided article. You will be given the article in four parts respectively: 
+
+      - Abstract
+      - Introduction and background
+      - Review of the article. 
+      - Your task is to understand the article and answer the questions asked.  Answer “Yes” and only “Yes”. If you understood the task.
+
+2. ChatGPT will respond back with “Yes” if it understood the task.
+
+3. After ChatGPT responds "Yes", provide the article text (copied from the article) in parts.
+
+4. Once provided all the parts, provide the questions asked in the assignment.
+
+
 # Compare and contrast
 
 Compare and contrast what you, as a human team member, _understood_ to what ChatGPT, as an A.I. team member, _understood_.
 
 1. Did ChatGPT help fill in your understanding of the paper?
+
+To an extent, yes. The questions and the article were fairly straightforward, so ChatGPT's responses mostly aligned with out group's answers. That being said, it was still helpful and interesting to get another perspective. For some questions, ChatGPT's responses provided different language than what we had in our responses, which helped fill our understanding of the article. 
+
 2. Did ChatGPT miss the mark in a meaningful way?
+The only question where we felt ChatGPT missed the mark is for question 1, since it said it needed more information to make a firm conclusion. For the other two questions, Chat GPT provided logical answers, mostly in agreement with our group's answer, and supported its answeres with valid arguments derived from the article.
