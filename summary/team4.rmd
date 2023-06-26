@@ -1,0 +1,37 @@
+---
+title: "Summary"
+author:
+  - Abhishek Mendon
+  - Bhawna Kapoor
+  - Jing-Yi Pan
+  - Randhir Nalage
+  - Vaibhav Kamal Nigam
+
+date: "`r Sys.Date()`"
+---
+
+Remember to write your thoughts as a book report.
+I expect the same _content_ as your presentation, but the working should reflect the new medium.
+
+# Read and Review
+
+Individually read and review the paper.
+As a group, please summarize your thoughts including the following:
+
+1. How original is the topic?
+2. What is the main question addressed by the research?
+3. Are the conclusions consistent with the evidence and arguments presented?
+
+# A.I Help
+
+Pretend that ChatGPT (or similar tool) is a new team member.
+Ask ChatGPT to contribute to the group project.
+Keep diligent notes as to your conversation.
+Science is about reproducibility, if your classmates can not repeat the process using your steps, you will be marked down in the next assignment.
+
+# Compare and contrast
+
+Compare and contrast what you, as a human team member, _understood_ to what ChatGPT, as an A.I. team member, _understood_.
+
+1. Did ChatGPT help fill in your understanding of the paper?
+2. Did ChatGPT miss the mark in a meaningful way?
