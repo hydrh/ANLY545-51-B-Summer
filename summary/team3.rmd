@@ -1,10 +1,9 @@
 ---
 title: "Summary"
 author:
-  - Honghui Yang
-  - Daniyar Sadykhanov
-  - Abimbola Maryam Sanusi
-  
+- Honghui Yang
+- Daniyar Sadykhanov
+- Abimbola Maryam Sanusi
 date: "`r Sys.Date()`"
 ---
 
@@ -17,7 +16,8 @@ Individually read and review the paper.
 As a group, please summarize your thoughts including the following:
 
 1. How original is the topic?
-We reviewed the paper first individually and had group meeting to organize our answers together before going to ChatGPT. Our team is of the opinion that comparing LR and NN is not original but is somewhat new in healthcare. While LR and NN have been widely studied, this is the first time we have seen this being applied in the healthcare sector. 
+
+We review the paper first individually and had group meeting to organize our answers together before going to ChatGPT. Our team is of the opinion that comparing LR and NN is not original but is somewhat new in healthcare. While LR and NN have been widely studied, this is the first time we have seen this being applied in the healthcare sector. 
 
 2. What is the main question addressed by the research?
 The main question being addressed is which of the models provides a reasonable performance(i.e. comparison of NN and LR, is LR better than NN?) in healthcare practice.
