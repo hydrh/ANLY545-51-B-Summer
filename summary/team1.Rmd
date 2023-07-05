@@ -148,4 +148,6 @@ chain.run(input_documents=docs, question=query)
 Compare and contrast what you, as a human team member, _understood_ to what ChatGPT, as an A.I. team member, _understood_.
 
 1. Did ChatGPT help fill in your understanding of the paper?
+Ans:As the paper was short enoght for us to intrepert, we understood the content of the paper by reading ourself.Our understanding was more precise and was similar to the understanding of Open AI. There wasn't any additional contribution of Open AI in our understanding of the paper.
 2. Did ChatGPT miss the mark in a meaningful way?
+Ans.The understanding between Open AI and us as a human were same on the basic of the concept of the paper.However, there was contrast on the interpretation of the result of the paper.
