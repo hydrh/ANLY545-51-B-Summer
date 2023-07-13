@@ -1,22 +1,22 @@
 ---
 title: "Reproduction"
 author:
-  - xxx
-  - xxx
-  - xxx
+  - Sandeep Srikonda
+  - Banish Ojha
+  - Alisha Pradhan
+  - Swetha Pydi
 date: "`r Sys.Date()`"
 ---
 
 Remember to write your thoughts as a book report.
 I expect the same _content_ as your presentation, but the working should reflect the new medium.
 
-The core of science is reproducibility.
-This goes back hundreds of years to the [Royal Society](https://en.wikipedia.org/wiki/Royal_Society).
-We must be able to reproduce our work and the work of others.
-
 # Reproduction
 
 Reproduce the work, **exactly as presented**, of the group that came before you (see People in Canvas).
+
+We are replicating Team 7's work from the earlier phase.
+
 
 # Evaluate
 
