@@ -13,9 +13,22 @@ I expect the same _content_ as your presentation, but the working should reflect
 
 # Reproduction
 
-Reproduce the work, **exactly as presented**, of the group that came before you (see People in Canvas).
+We are replicating Team 8's work from the earlier phase. Their approach involved uploading the contents of the paper without any images and tables into chatGPT interface and then asking ChatGPT follow up questions. 
 
-We are replicating Team 7's work from the earlier phase.
+We followed the instructions given in Team 8's summary Rmd to generate the following answers.
+
+## Questions and AI Answers:
+
+  1. How original is the topic?
+  Ans:
+  2. 
+  Ans:
+  3. 
+  Ans:
+  4.Extra question to check this approach's capability
+  Ans:
+  5.Extra question to check this approach's capability
+  Ans:
 
 
 # Evaluate
