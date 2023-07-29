@@ -1,0 +1,42 @@
+---
+title: "Reproduction of Team 7 Work"
+author:
+  - Xiao Chen
+date: "`r Sys.Date()`"
+---
+
+Remember to write your thoughts as a book report.
+I expect the same _content_ as your presentation, but the working should reflect the new medium.
+
+The core of science is reproducibility.
+This goes back hundreds of years to the [Royal Society](https://en.wikipedia.org/wiki/Royal_Society).
+We must be able to reproduce our work and the work of others.
+
+# Reproduction
+
+Reproduce the work, **exactly as presented**, of the group that came before you (see People in Canvas).
+
+1. How original is the topic?
+
+AI: The topic of the study appears to be original and relevant in the context of the increasing interest in the potential role of data science and machine learning in healthcare. While machine learning and logistic regression have been studied extensively, this research focuses on comparing their performance specifically in clinical medicine using identical datasets. The study aims to determine whether the more computationally complex neural networks (NNs) offer significant performance improvements over the simpler logistic regression (LR) models for specific clinical classification problems. This is a relevant and important question given the potential trade-offs between algorithmic complexity, computational cost, and interpretability in healthcare applications.
+
+2. What is the main question addressed by the research?
+
+AI: The main question addressed by the research is whether neural network classification approaches (NNs) offer significantly improved performance compared to logistic regression (LR) models in clinical medicine when considering the area under the curve (AUC) of the receiver operating characteristic (ROC) curve as the performance metric. The study directly compares LR and NN models using the same datasets in various clinical scenarios to evaluate the relative performance of these two machine learning approaches.
+
+3. Are the conclusions consistent with the evidence and arguments presented?
+
+AI: Yes, the conclusions of the study are consistent with the evidence and arguments presented. The research reviewed 21 studies comparing LR and NN models in various clinical settings. The findings indicate that in the majority of cases, NNs had a slightly higher AUC compared to LR, but the difference was small and unlikely to be of clinical significance. The mean improvement in AUC in favor of NNs was 0.03. The study acknowledges that while NNs may provide marginal performance gains in some specific scenarios, LR models still demonstrate reasonable performance in the majority of cases. It also highlights the trade-offs between algorithm complexity and resource requirements when considering the implementation of more complex NN models.
+
+
+# Evaluate
+
+Evaluate if the result (identical or different) are still useful.
+
+1. Did **the other team's** prompts help fill in **your** understanding of the paper? 
+
+- Yes, team7 instructions allowed me to reproduce the work using ChatGPT. Though team 7 did not provide their version of AI response in the summary file, so I was not able to compare directly.
+
+2. Did **the other team's** prompts miss the mark in a meaningful way? 
+
+- No, team7 instructions are simiple and effective. 
