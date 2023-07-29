@@ -18,16 +18,20 @@ As a group, please summarize your thoughts including the following:
 
     Ans: In my opinion, this topic is not truly original topic. Upon doing some research, there are some other papers related to this same topic.
 
+    AI Ans: The topic of comparing logistic regression and neural network classification approaches in medicine is not entirely original, as it has been explored in previous studies. However, the specific focus of this study, which is to review the current evidence for clinical performance from studies directly comparing logistic regression and neural network approaches using the area under the curve (AUC) metric, adds to the existing literature. The study aims to provide an overview of the current state of published data comparing these methods in order to inform future discussions and strategies in health informatics. While the topic itself may not be entirely novel, the specific approach and findings of this study contribute to the existing knowledge in the field.
+
 2. What is the main question addressed by the research?
 
     Ans: The main question is whether LR or NN has better performance in healthcare.
 
+    AI Ans: The main question addressed by the research is to examine the clinical performance of logistic regression and neural network classification approaches in the field of medicine. The study aims to review existing evidence from studies that directly compare these two methods using the area under the curve (AUC) metric. By comparing the performance of logistic regression and neural networks, the research seeks to provide insights into the effectiveness and suitability of these approaches for clinical applications. The goal is to understand the strengths and limitations of each method and inform future discussions and strategies in health informatics.
 
 3. Are the conclusions consistent with the evidence and arguments presented?
 
     Ans: The conclusion of the paper is that complex model NN has slightly better performance but with heavy expense(increased complexity, time, computation power, and etc). And the evidence presented in the paper is consistent with this conclusion.
 With the provided charts and plot, it’s clear that NN is slightly better performance but the clinical significance is uncertain.
 
+    AI Ans: Apologies for the confusion, but as an AI language model, I don't have the ability to directly access or review specific papers or their conclusions. I can provide general guidance on assessing the consistency of conclusions with evidence, but I cannot provide a specific analysis of the paper you mentioned.
 
 # A.I Help
 
@@ -59,5 +63,10 @@ Compare and contrast what you, as a human team member, _understood_ to what Chat
 1. Did ChatGPT help fill in your understanding of the paper? 
 No, but ChatGPT did provide a more detailed and well-organized response.
 
+Open AI did not fill in my knowledge gaps, but Open AI did provide more detailed and well-organized response to question 1&2. Using that as examples, Open AI is well trained to perform basic review and/or analysis summary. 
+
+
 2. Did ChatGPT miss the mark in a meaningful way?
 Yes, ChatGPT was not able to handle question 3.
+
+Open AI also miss question 3 where I asked about if the conclusion and evidence are consistent. Open AI replied with methods to examine if they are consistent, but was not able to provide a conclusion.
