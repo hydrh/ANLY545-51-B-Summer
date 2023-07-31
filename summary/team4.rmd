@@ -1,5 +1,5 @@
 ---
-title: "Summary"
+title: "Summary:Paper Review using ChatGPT"
 author:
   - Abhishek Mendon
   - Bhawna Kapoor
@@ -10,17 +10,35 @@ author:
 date: "`r Sys.Date()`"
 ---
 
-Remember to write your thoughts as a book report.
-I expect the same _content_ as your presentation, but the working should reflect the new medium.
-
 # Read and Review
 
 Individually read and review the paper.
 As a group, please summarize your thoughts including the following:
 
+## Human Review
+`Author Comments:` _We reviewed the article individually and then met as a group to come up with the following answers to the below questions._
+
 1. How original is the topic?
+
+* The analysis carried out in this article is based on the literature review of 21 published articles (out of total 114 initial search articles), to compare the performance of Logistic Regression (LR) and Neural Networks (NN) machine learning models in a defined clinical healthcare-related problem.  
+
+* The aim of this research is to provide an overview of the current state of published data comparing such methods to inform future discussions and strategies relating to the health domain. 
+
+* This research does not provide specific clinical guidance in any medical area, evaluate any specific model, or compare to the clinical performance of the gold standard. 
+
+* Based on the mentioned points, we can conclude that this is a derived topic, and the research paper does not provide a unique argument of the authors. 
+
 2. What is the main question addressed by the research?
+
+* The main question addressed by the research/study is the model performance comparison between Logistic Regression (LR), a statistical approach, and Neural Networks (NN), a bit more computationally complex model.  
+
+* Along with that, the study also emphasizes on the significance of utilizing a complex ML technique/algorithm (in this case, NN) in contrast to a relatively simple model (in this case, LR). 
+
 3. Are the conclusions consistent with the evidence and arguments presented?
+
+* The conclusion of the study is in line with the evidence and arguments presented in the other 21 published articles. The literature research aligns with the statistical analysis performed based on the data collected from various published articles.
+
+* Statistical data: In 13/21 (62%) of cases, NN had a greater AUC compared to LR, but in most the difference was small and unlikely to be of clinical significance. Unweighted mean difference in AUC 0.03 (95% CI 0-0.06) in favor of NN versus LR. 
 
 # A.I Help
 
@@ -29,9 +47,56 @@ Ask ChatGPT to contribute to the group project.
 Keep diligent notes as to your conversation.
 Science is about reproducibility, if your classmates can not repeat the process using your steps, you will be marked down in the next assignment.
 
+`Author Comments:` _The next task is to take help from ChatGPT to answer the same set of questions we answered as a group. One obstacle we face during this task was the charater/token limit for chatGPT. To over come this issue we followed the below steps._
+
+## ChatGPT Steps
+
+* Can you help me with an assignment?
+* I want you to read an article/paper, I will be providing the article in small chunks starting with the topic. Just follow the instructions and only keep reading. Once I am done sending the article, I will ask you to answer my questions.
+
+`Author Comments:` _In the above step, we are asking ChatGPT to follow a set of instructions and keep reading the article unless asked otherwise._
+
+* Provided the article in small chunks
+
+`Author Comments:` _Once you are done providing the article, you can continue asking the questions_
+
+* Question 1: How original is the topic?
+* Question 2: What is the main question addressed by the research?
+* Question 3: Are the conclusions consistent with the evidence and arguments presented?
+
+## ChatGPT Review
+
+1. How original is the topic?
+The originality of the topic "Classification Performance of Neural Networks Versus Logistic Regression Models: Evidence From Healthcare Practice" can be subjective and depends on the context of existing research in the field. While the topic itself explores the comparison of classification performance between neural networks and logistic regression models in healthcare practice, which has been studied to some extent, the specific focus on healthcare applications and the emphasis on evidence-based analysis may contribute to the originality of the article. The authors have conducted a literature review to summarize and analyze existing studies, providing insights into the comparative performance of these models in specific healthcare scenarios. The unique contribution lies in synthesizing and presenting the findings from multiple studies in a healthcare context, which can help inform discussions and strategies related to health informatics.
+
+2. What is the main question addressed by the research?
+The main question addressed by the research is: 
+"What is the comparative classification performance, as measured by the area under the receiver operating characteristic curve (AUC), between logistic regression (LR) models and neural network (NN) models in healthcare practice?" 
+The research aims to review the current evidence and studies that directly compare the performance of LR and NN models in terms of their ability to classify specific outcomes using structured healthcare data. By examining the AUC values from various studies, the research seeks to provide an overview of the relative performance of these two approaches and inform discussions and strategies related to health informatics in the context of clinical decision-making.
+
+3. Are the conclusions consistent with the evidence and arguments presented?
+Yes, the conclusions of the research appear to be consistent with the evidence and arguments presented in the article. The findings of the study indicate that, across a range of clinical settings and classification problems, relatively simple logistic regression (LR) models demonstrate reasonable performance that is only marginally improved by using more complex neural network (NN) models. The research shows that in 62% of cases, NN models had a slightly greater AUC compared to LR models, but the difference was small and unlikely to be clinically significant. 
+The conclusions emphasize that while NN models may offer a slight improvement in performance, they come with increased algorithmic complexity, computational cost, and reduced interpretability compared to LR models. The article acknowledges that LR models remain useful initial techniques for addressing a variety of clinical questions, and their performance is essentially similar to that of more complex NN models in many circumstances. It highlights the trade-off between performance and implementation costs and suggests that the use of advanced analytic tools like NNs may be warranted in specific scenarios where large amounts of data are available and small performance gains have significant management value. 
+Overall, the conclusions align with the evidence presented throughout the article, which includes a literature review and analysis of studies comparing LR and NN models in healthcare practice. 
+
 # Compare and contrast
 
 Compare and contrast what you, as a human team member, _understood_ to what ChatGPT, as an A.I. team member, _understood_.
 
+* One main difference we can notice between humans and AI without even reading the answers is the length of their answers. The human answers are very short and straight to the point. 
+
+* The human just answers the question being asked. On the other hand, the answer provided by AI is much lengthier and has a lot of 'fluff' included.  
+
+* Another difference is that AI answers questions very diplomatically. By using words such as 'appear' and 'subjective’.  
+
+* In question 1, AI uses non-definitive words, likely so they are not liable for the interpretation is wrong. "The originality of the topic "Classification Performance of Neural Networks Versus Logistic Regression Models: Evidence From Healthcare Practice" can be subjective and depends on the context of existing research in the field," AI is giving us an answer without saying it bluntly as the human does.  
+
+* In the end, both humans and AI answer the question, but one gives you the answer in a straightforward manner, and the other takes you around in circles.  
+
 1. Did ChatGPT help fill in your understanding of the paper?
+
+* Since we read the paper ourselves, chatGPT did not fill our understanding of the paper. It only reiterated points that were already in the paper, rather than provide us with explanations to the points being made. If we did not read the paper and wanted a quick summary, then it would have helped fill in our understanding of the paper. 
+
 2. Did ChatGPT miss the mark in a meaningful way?
+
+* No, we do not belive chatGPT missed the mark. While there were apparent differences in both AI and human answers, both still made sense and were able to answer the question presented.
