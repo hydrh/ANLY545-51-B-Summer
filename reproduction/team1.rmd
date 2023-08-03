@@ -77,7 +77,7 @@ It's important to keep in mind that the performance of machine learning models c
 Evaluate if the result (identical or different) are still useful.
 
 1. Did **the other team's** prompts help fill in **your** understanding of the paper?
-The answers from the other team's prompts were very verbose​.
+We got a different but valuable perspective about the question because AI is able to use the context of the whole paper unlike our approach. We needed to chunk to create vector and did similarity search in our approach. But, Team 8's usage of ChatGPT with all context as an input was generating more verbose and detailed answer [with respect to very concise and succint answers produced by our approach].
 
 2. Did **the other team's** prompts miss the mark in a meaningful way?
 We don't think so. Just replies were very verbose and long, without concrete remarks. Maybe, it would have been ideal if prompts were re-engineered to probe the AI to produce a more definitive assessment​.
