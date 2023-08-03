@@ -20,15 +20,56 @@ We followed the instructions given in Team 8's summary Rmd to generate the follo
 ## Questions and AI Answers:
 
   1. How original is the topic?
-  Ans:
-  2. 
-  Ans:
-  3. 
-  Ans:
+  Ans: The originality of a topic can be subjective and may depend on various factors such as the existing literature, the specific focus of the study, and the novelty of the research question. Based on the information provided in the abstract, it seems that the paper addresses the comparison between logistic regression (LR) and neural network (NN) classification approaches specifically in the context of medicine. While LR and NN models have been widely used in machine learning, the paper focuses on their comparison and performance in medical classification tasks, which adds a specific domain context to the topic.
+
+To assess the originality of the topic more accurately, a comprehensive analysis of the existing literature in the field would be necessary. Without access to the full paper and a review of related work in the field, it is difficult to provide a definitive judgment on the originality of the topic.
+  
+  2. What is the main question addressed by the research?
+  Ans: The main question addressed by the research is as follows: How do logistic regression (LR) and neural network (NN) classification approaches compare in terms of their performance, specifically represented by the area under the curve (AUC) of the receiver operating characteristic (ROC) curve, in the field of medicine? The research aims to review the existing evidence by analyzing primary research studies that directly compare LR and NN models using AUC values as the performance metric. The objective is to provide an overview of the current state of published data and inform discussions and strategies related to health informatics.
+  
+  3. Are the conclusions consistent with the evidence and arguments presented?
+  Ans: 
+Based on the information provided in the abstract, it appears that the conclusions are consistent with the evidence and arguments presented. The study found that in the majority of cases examined across various clinical settings, logistic regression (LR) models demonstrated reasonable performance, and the use of more complex neural network (NN) models only marginally improved performance at the expense of increased complexity, computation power, and reduced interpretability.
+
+The study found that in 13 out of 21 cases (62%), NN models had a slightly greater area under the curve (AUC) compared to LR models. However, the difference in performance was small and unlikely to be of clinical significance. The study highlights the trade-off between algorithmic complexity and performance gains, suggesting that for most clinical classification and prediction problems, simpler LR models may be sufficient and provide adequate performance for real-world needs.
+
+The conclusions also acknowledge that in specific circumstances, such as when large amounts of data are available and even small performance improvements would be of significant value, the use of advanced analytic tools like NN models may be justified. The study emphasizes the need for multidisciplinary clinical informatics teams to determine the appropriate method and balance between simplicity/complexity and accessibility/performance based on the specific clinical problem being addressed.
+
+It's important to note that a comprehensive assessment of the evidence and arguments would require a thorough review of the full paper, including the methodology, results, and discussion sections. The abstract provides a summary, and a more detailed analysis of the complete study would provide a more comprehensive evaluation of the consistency between the conclusions and the evidence presented.
+
+
   4.Extra question to check this approach's capability
-  Ans:
+  Q4: Are neural networks better than logistic regression for classification tasks in medicine?
+  Ans: Based solely on the information provided in the abstract of the paper, it suggests that neural networks (NN) and logistic regression (LR) models perform similarly in most cases for classification tasks in medicine. While NN models were found to have a slightly greater area under the curve (AUC) in 62% of cases compared to LR models, the difference in performance was small and unlikely to be of clinical significance.
+
+The study highlights that LR models demonstrated reasonable performance in a range of clinical settings, and the overall improvement in performance gained by using NN models was modest, with a mean improvement in AUC of 0.03. However, the use of NN models may be justified in specific circumstances where large amounts of data are available, including unstructured data such as genomic and imaging studies, and small increases in performance could provide significant management value.
+
+It's important to keep in mind that the performance of machine learning models can vary depending on the specific dataset, features, and problem at hand. Additionally, the abstract may not capture all the nuances and details of the full study. Therefore, to draw definitive conclusions, it's crucial to review the complete paper and consider other studies and evidence in the field.
+
+
   5.Extra question to check this approach's capability
-  Ans:
+  Q5: What should be the AUC difference between Neural Network and Logistic Regression, so NN is preferred despite its complexity?
+  Ans: The abstract of the paper does not provide a specific threshold for the area under the curve (AUC) difference between Neural Network (NN) and Logistic Regression (LR) models that would make NN the preferred choice despite its complexity. The study states that in 13 out of 21 cases (62%), NN models had a slightly greater AUC compared to LR models, but the difference was small and unlikely to be of clinical significance.
+
+  The decision to prefer NN over LR should consider various factors beyond just the AUC difference. Some of these factors could include:
+
+  Size of the dataset: NN models tend to perform better with larger datasets, so if the dataset is substantial, NN might be more suitable.
+
+  Complexity of the problem: If the classification problem is highly complex with intricate relationships between features, NN might be better at capturing these complex patterns.
+
+  Resource availability: NN models are computationally more expensive and require more resources (memory and processing power) compared to LR. If there are enough resources available, NN might be feasible.
+
+  Interpretability: LR models are more interpretable as they provide odds ratios, while NN models lack interpretability due to their black-box nature. If interpretability is crucial, LR might be preferred.
+
+  Other performance metrics: AUC is one metric, but other performance metrics such as precision, recall, F1-score, etc., should also be considered depending on the specific needs of the application.
+
+  Domain expertise: The understanding of the problem and the domain expertise of the researchers or practitioners involved may also influence the model choice.
+
+  In summary, there is no fixed AUC difference threshold to prefer NN over LR. The choice between the two models should be made based on a careful evaluation of the specific problem, dataset size, complexity, resources, interpretability needs, and other relevant performance metrics. It's essential to carefully consider the trade-offs between model complexity and performance to make an informed decision.
+
+And we asked few other questions just to have contrast with the approach we followed. The basic 
+
+**The reference to chat history: https://chat.openai.com/share/9595933e-91e4-42a2-aaa9-fd16f1ac9fc9**
 
 
 # Evaluate
@@ -36,4 +77,7 @@ We followed the instructions given in Team 8's summary Rmd to generate the follo
 Evaluate if the result (identical or different) are still useful.
 
 1. Did **the other team's** prompts help fill in **your** understanding of the paper?
+The answers from the other team's prompts were very verbose​.
+
 2. Did **the other team's** prompts miss the mark in a meaningful way?
+We don't think so. Just replies were very verbose and long, without concrete remarks. Maybe, it would have been ideal if prompts were re-engineered to probe the AI to produce a more definitive assessment​.
