@@ -67,7 +67,7 @@ It's important to keep in mind that the performance of machine learning models c
 
   In summary, there is no fixed AUC difference threshold to prefer NN over LR. The choice between the two models should be made based on a careful evaluation of the specific problem, dataset size, complexity, resources, interpretability needs, and other relevant performance metrics. It's essential to carefully consider the trade-offs between model complexity and performance to make an informed decision.
 
-And we asked few other questions just to have contrast with the approach we followed. The basic 
+  And we asked few other questions just to have contrast with the approach we followed. The basic 
 
 **The reference to chat history: https://chat.openai.com/share/9595933e-91e4-42a2-aaa9-fd16f1ac9fc9**
 
