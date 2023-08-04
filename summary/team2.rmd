@@ -1,9 +1,10 @@
 ---
-title: "Summary"
+title: "Summary, Team 2"
 author:
-  - xxx
-  - xxx
-  - xxx
+  - Haider Haseeb
+  - Felix Schuhbauer
+  - Raphael Shinckar
+  - Marysol Huxohl
 date: "`r Sys.Date()`"
 ---
 
@@ -16,19 +17,64 @@ Individually read and review the paper.
 As a group, please summarize your thoughts including the following:
 
 1. How original is the topic?
+  Ans: The topic is not very original. There are a lot of paper and studies around the comparison of machine learning and AI model, including logistic regression and neural networks. Often, those studies look at the healthcare sector because the type of classification questions in the sector is well suited for those methods.While it is not a very original topic, it is an extremely important one nonetheless. Must humans face serious medical questions at some point in their life and if the decision making can be improved by employing machine learning models such as linear regression (LR) or neural networks (NN), this will be beneficial to society.
+  
+  
 2. What is the main question addressed by the research?
+  Ans: The main question is how do LR and NN model perform in solving healthcare classification problems.
+  
+  
 3. Are the conclusions consistent with the evidence and arguments presented?
+  Ans: We think the conclusion is not fully consistent with the data. While it is true that most studies show higher performance for NN model, if you look at sample size the picture is very different. The largest study has seen the LR model perform significantly better than the NN model.
+
 
 # A.I Help
 
-Pretend that ChatGPT (or similar tool) is a new team member.
-Ask ChatGPT to contribute to the group project.
-Keep diligent notes as to your conversation.
-Science is about reproducibility, if your classmates can not repeat the process using your steps, you will be marked down in the next assignment.
+We pasted the article in ChatGPT ans asked it 3 questions,
+
+Q.no1 How original is the topic?
+Ans: As an AI language model, I don't have access to specific research papers or real-time information about the originality of specific topics beyond my training data, which is current up to September 2021. Therefore, I cannot determine the exact originality of the specific topic discussed in the provided excerpt from the research paper or literature review.
+
+The originality of a research topic depends on various factors, including the context of the existing literature and the specific research question being addressed. Topics in machine learning and data science, such as comparing different classification algorithms like logistic regression and neural networks, have been widely studied in academic and research communities. Many researchers have explored the performance of various models for different applications and datasets.
+
+To assess the originality of the topic, it's essential to conduct a comprehensive literature review and examine the existing body of knowledge on the subject. Researchers often explore new aspects or extensions of existing topics to contribute novel insights to the field. Additionally, the originality of a research paper also depends on the unique data used, the methodology employed, and the specific insights or findings obtained.
+
+If you are interested in the originality of the topic presented in the excerpt, I recommend conducting a literature search using academic databases or tools like Google Scholar to find related research papers and see how this specific study's findings and approach compare to prior works in the same area. By doing so, you can gain a better understanding of the novelty and contribution of this research to the existing body of knowledge.
+
+Q.no2 What is the main question addressed by the research?
+Ans: The main question addressed by the research is: "How do logistic regression (LR) and neural network (NN) classification approaches compare in terms of performance, specifically using the area under the curve (AUC) metric, for clinical healthcare-related classification problems using structured data with categorical output?"
+
+The researchers sought to directly compare the performance of LR and NN models in medical applications to determine which approach provides better classification performance when using AUC as the evaluation metric. They focused on studies that utilized identical datasets to ensure a fair and direct comparison between the two machine learning methods.
+
+The study aimed to investigate whether the more computationally complex NN models offer significant improvements in classification performance over simpler LR models for various clinical scenarios. Additionally, the researchers discussed the potential trade-offs in using NNs, such as algorithmic complexity, computational cost, and reduced interpretability, compared to the more interpretable LR models.
+
+Overall, the research aimed to provide an overview of the current evidence for the clinical performance of LR and NN approaches in medicine, based on published studies directly comparing these models in terms of AUC performance, and to offer insights that could inform future discussions and strategies related to health informatics and machine learning applications in healthcare.
+
+Q.no3 Are the conclusions consistent with the evidence and arguments presented?
+Ans: Based on the provided excerpt, the conclusions appear to be consistent with the evidence and arguments presented in the research. The study aimed to compare the performance of logistic regression (LR) and neural network (NN) classification approaches in the context of clinical healthcare-related classification problems using AUC as the evaluation metric. The following points support the conclusions:
+
+Evidence of Performance Comparison: The researchers conducted a literature review and identified 21 primary research studies directly comparing LR and NN models in terms of AUC performance for specific clinical scenarios using structured healthcare data. The data included a total of 1,442,703 subjects.
+
+NNs Slightly Superior: In 13 out of 21 cases (62%), NN models had a slightly greater AUC compared to LR models. This observation supported the notion that, in some instances, NNs might offer improved classification performance compared to LR.
+
+Marginal Performance Gain: Despite the slight superiority of NNs, the researchers emphasized that the difference in AUC performance between NN and LR models was small (mean improvement in AUC of 0.03) and unlikely to be of significant clinical importance. This finding was consistent with the argument that while NNs may perform slightly better, the improvement is modest.
+
+Trade-Offs of NNs: The study acknowledged the trade-offs associated with NN models, including increased complexity, computational cost, and reduced interpretability. This supported the argument that LR models, being simpler and more interpretable, might still be useful for many clinical scenarios.
+
+Applicability to Real-World Needs: The study highlighted that in most clinical circumstances, the use of simple LR models provided reasonable performance, and the marginal improvements gained by using NNs might not justify the increased complexity and resource requirements. This conclusion aligns with the evidence presented.
+
+Contextual Considerations: The researchers acknowledged the limitations of using AUC as the sole metric for evaluating algorithm performance in real-world clinical settings and emphasized the importance of considering various performance metrics based on the specific clinical scenario. This demonstrated an awareness of the broader context and factors to consider in the application of machine learning models in healthcare.
+
+Overall, the conclusions drawn from the research appear to be well-supported by the evidence and arguments presented. The study's focus on AUC performance comparisons, consideration of the trade-offs between LR and NN models, and acknowledgment of the context of clinical applications contribute to the consistency of the conclusions with the presented evidence. However, it's important to note that a comprehensive assessment would require a thorough review of the full research paper, including its methodology, data, and detailed findings.
 
 # Compare and contrast
 
 Compare and contrast what you, as a human team member, _understood_ to what ChatGPT, as an A.I. team member, _understood_.
 
 1. Did ChatGPT help fill in your understanding of the paper?
+
+  Ans: Yes Chat GPT helped us understand the paper, but it only when we gave it excerpts from the paper itself, Hiwever it failed to answer the first question.
+  
 2. Did ChatGPT miss the mark in a meaningful way?
+
+  Ans: ChatGPT helped us summarize the paper in a way to absorb the information but it was not a clear brief of the paper itself, it missed mark on quantifying the stats mentioned in the article.
